@@ -3,37 +3,38 @@
 
 ## Motivation 
 
-Consumer reviews are a key indicator of a car producer's strengths and shortcomings. For a company to retain customers or bring back ex-customers, it's important to realize what draws a consumer to and away from your product. Car purchases are very heavily influenced by consumers future expectations of the product. For a consumer who cares about practicality, it's imporant that they can see themselves getting use from their vehicle down the line. By leveraging data from actual consumer reviews and experiences, this project aims to create an actionable reliability index that truly reflects the experiences of everyday users. This project offers a tool to make informed decisions based on the historical performance and satisfaction ratings of different car models. Understanding which cars have historically been reliable—and which have not—can save potential buyers from future headaches and unforeseen expenses. The insights derived from this analysis provide valuable feedback on how their vehicles perform in real-world conditions. Highlighting areas that require improvement can not only enhance product quality but also boost consumer trust and brand loyalty. In the increasingly competitive automotive industry, a reputation for reliability can be a significant differentiator.
-
+In 2023, the gaming industry was worth about 250 billion dollars, with over 9 billion dollars in-game sales on Steam's mega platform and store.  It's a one-stop shop for viewing the most popular games and some important information about them. One of them is being able to identify how consumers view your product. In 2024, games come and go daily, and we see massive shifts in player bases. Player retention is a huge problem in the video game market; companies invest millions of dollars in game production and advertising, but player counts plummet after release. One of the best ways to produce a game that will have longevity is to understand what consumers liked and didn't like about games already released. We can make informed decisions about the historical performance of games and game genres through Steam product reviews. This can cater to an audience looking to get their hands on the next captivating product; we can learn what they want by listening to what they have to say. This project aims to dig up insights on valuable feedback about how previous games performed in the hands of the consumer. Highlighting areas that require improvement enhances product quality and boosts consumer trust and brand loyalty. In the increasingly growing and competitive video gaming industry, a good developer reputation for listening to their audience will go a long way. 
 
 ## Goals
-Explore consumer reports of different car brands and create central reports like overall brand reliability scores for consumers to account in their next car purchase, and for manufactures to identify shortcomings.
+
+Explore consumer ratings of different games and genres, highlighting important aspects of games that foster retention. 
+
 
 ### Project Objectives 
 
-Analyze how reliability and consumer ratings trend over time for different models, this can highlight improvments in product delivery.  
+Analyze how consumer ratings trend over time for different models; this can highlight improvements in product delivery.  
 
-Implement Natural Language Processing to identify key words indicating reliability issues, as well as to gage the overall sentiment of the brand. 
+Implement Natural Language Processing to identify keywords indicating product retention and gauge the overall sentiment of the game. 
 
-Explore correlations between reliability scores, consumer reports and other factors such as age, and MSRP. 
+Explore correlations between genres, consumer reports, and other factors such as age and flow. 
 
 
 ## The Data 
-Founded in 1966, Edmunds.com Inc is an online resource for automotive information, including expert and comsumer car reviews.
+
+Founded in 1996, Valve L.L.C is a software company that produces games and developed Steam's digital distribution service. 
 
 This Data Set was uploaded to kaggle.com, the largest community for AI & ML Projects. 
 
-Containing scraped data from Edmunds.com, there are 62 data sets containing thousands of unique ids containing key features for this project. 
+Containing scraped data from steam.com, there are over 6.4 million publicly available reviews. 
 
 ## Features
 
-**ID** - Unique ID for each individual  <br>
-**Review_Data** - Date and Time for each review, most of which in PDT or PST   <br>
-**Author_Name** Name of the user who left each review   <br>
-**Vehicle_Title** Year, Make, and Model, of the car reviewed  <br>
-**Review_Title** The title of The Review, Indicating the topic of Review   <br>
-**Review** - The Review itself   <br>
-**Rating** - A rating of the car between 1-5   <br>
+**app_id** - Unique ID for each individual  <br>
+**app_name** - Title of Game under review  <br>
+**review_text** Content of the review <br>
+**review_score** A score indicating whether the consumer recommends the game or not <br>
+**review_votes** Whether the review was recommended by other users or not  <br>
+
 
 
 
